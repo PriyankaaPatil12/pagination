@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* pagination */
+
+.card ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card ul li {
+  list-style-type:none;
+  margin: 0px 10px;
+}
+
+button{
+  border: none;
+  padding: 7px 10px;
+  border-radius: 50px;
+}
+
+button.active {
+  background-color: red; 
+  color:white; 
+  border: none;
+  padding: 7px 10px;
+  border-radius: 50px;
+}
+
+
